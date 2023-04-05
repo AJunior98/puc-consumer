@@ -24,12 +24,12 @@ public class ClienteDTO {
     @NotNull(message = "Informar o código do banco de destino.")
     @Schema(description = "Código do banco destino")
     @JsonProperty(value = "nrAgencia")
-    private Long numeroAgencia;
+    private String numeroAgencia;
 
     @NotNull(message = "Informar a agência de destino.")
     @Schema(description = "Agência de destino")
     @JsonProperty(value = "nrConta")
-    private Integer numeroConta;
+    private String numeroConta;
 
     @NotNull(message = "Informar a conta de destino.")
     @Schema(description = "Conta de destino")
